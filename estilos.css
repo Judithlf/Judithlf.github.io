@@ -1,0 +1,119 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo para la imagen principal */
+img {
+    display: block;
+    margin: 0 auto; /* Centra horizontalmente */
+    width: 50%; /* Mantiene el tamaño al 50% */
+}
+
+
+/* General */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f400;
+    color: #333333;
+    padding-top: 50px; /* Deja espacio para la barra de navegación */
+}
+
+/* Barra de navegación */
+.w3-top {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.w3-bar-item {
+    padding: 14px 20px;
+    color: rgba(28, 28, 28, 0.926);
+    text-decoration: none;
+}
+
+/* Imagen principal */
+#welcome img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 500px; /* Ajuste el tamaño de la imagen */
+}
+
+/* Sección de Noticias */
+.w3-container {
+    margin-top: 40px;
+}
+
+h1, h2, h4 {
+    margin-bottom: 20px;
+}
+
+p {
+    text-align: justify;
+    margin: 20px 0;
+}
+
+/* Miembros de la banda */
+.w3-row {
+    display: flex;
+    justify-content: space-around; /* Distribuye uniformemente los miembros */
+    flex-wrap: wrap; /* Acomoda los elementos en varias filas si es necesario */
+    margin-top: 30px;
+}
+
+.w3-four {
+    flex: 1;
+    margin: 10px;
+    text-align: center;
+}
+
+.w3-four img {
+    border-radius: 50%;
+    width: 100%;
+    max-width: 150px;
+}
+
+/* Contacto */
+#contacto form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.w3-input {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.w3-button {
+    width: 100%;
+    max-width: 200px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+/* Imagen de contacto (Abbey Road) */
+.w3-image {
+    margin-top: 20px;
+}
+
+/* Espaciado en las secciones */
+.w3-padding-32 {
+    padding: 32px;
+}
+
+/* Centrando el contenido */
+.w3-content {
+    max-width: 1000px;
+    margin: auto;
+    background-color: rgba(200, 192, 192, 0.237);
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
